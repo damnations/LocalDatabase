@@ -21,7 +21,5 @@ public class Participant {
 
     @ColumnInfo(name = "attending")
     private String attending;
-
-    // Constructor, getters and setters omitted for brevity
 }
 
