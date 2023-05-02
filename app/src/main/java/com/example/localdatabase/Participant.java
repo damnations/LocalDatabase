@@ -20,6 +20,6 @@ public class Participant {
     private String name;
 
     @ColumnInfo(name = "attending")
-    private String attending;
+    private Boolean attendance;
 }
 
