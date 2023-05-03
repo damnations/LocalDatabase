@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/reservationTitleEditText"
+        android:hint="Reservation Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/reservationTimeEditText"
+        android:hint="Reservation Time (YYYY-MM-DD HH:MM:SS)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"/>
+
+    <EditText
+        android:id="@+id/reservationLengthEditText"
+        android:hint="Reservation Length (in minutes)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/addReservationDialogButton"
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
+
+</LinearLayout>

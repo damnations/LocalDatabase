@@ -22,7 +22,10 @@ public interface ReservationDao {
     void delete(Reservation reservation);
 
     @Query("SELECT * FROM reservations ORDER BY reservationTime ASC")
-    LiveData<List<Reservation>> getAllReservations();
+    LiveData<List<Reservation>> getAllReservationsAscending();
+
+    @Query("SELECT * FROM reservations ORDER BY reservationTime DESC")
+    LiveData<List<Reservation>> getAllReservationsDescending();
 
     @Query("SELECT * FROM reservations WHERE id = :reservationId")
     LiveData<Reservation> getReservationById(int reservationId);
