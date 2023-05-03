@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Participant Name:"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
         android:id="@+id/participantNameEditText"
@@ -18,7 +18,7 @@
         android:inputType="text"
         android:maxLines="1"
         android:padding="10dp"
-        android:singleLine="true"/>
+        android:singleLine="true" />
 
     <TextView
         android:id="@+id/attendanceNameLabel"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/participantNameEditText"
         android:text="Attendance:"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <RadioGroup
         android:id="@+id/attendanceRadioGroup"
@@ -41,14 +41,14 @@
             android:layout_height="wrap_content"
             android:text="Present"
             android:checked="true"
-            android:padding="10dp"/>
+            android:padding="10dp" />
 
         <RadioButton
             android:id="@+id/attendanceAbsentRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Absent"
-            android:padding="10dp"/>
+            android:padding="10dp" />
 
     </RadioGroup>
 
@@ -62,6 +62,6 @@
         android:background="@color/teal_700"
         android:textColor="@android:color/white"
         android:layout_marginTop="16dp"
-        android:padding="10dp"/>
+        android:padding="10dp" />
 
 </RelativeLayout>

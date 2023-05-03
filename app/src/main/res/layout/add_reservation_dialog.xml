@@ -10,21 +10,21 @@
         android:hint="Reservation Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/reservationTimeEditText"
         android:hint="Reservation Time (YYYY-MM-DD HH:MM:SS)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="datetime"/>
+        android:inputType="datetime" />
 
     <EditText
         android:id="@+id/reservationLengthEditText"
         android:hint="Reservation Length (in minutes)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:inputType="number" />
 
     <Button
         android:id="@+id/addReservationDialogButton"
@@ -35,6 +35,6 @@
         android:background="@color/teal_700"
         android:textColor="@android:color/white"
         android:layout_marginTop="16dp"
-        android:padding="10dp"/>
+        android:padding="10dp" />
 
 </LinearLayout>

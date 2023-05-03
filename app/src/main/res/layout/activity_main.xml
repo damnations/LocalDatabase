@@ -13,13 +13,13 @@
         android:background="@color/teal_700"
         android:textColor="@android:color/white"
         android:layout_marginTop="16dp"
-        android:padding="10dp"/>
+        android:padding="10dp" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/reservationList"
+        android:id="@+id/reservationListRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>
