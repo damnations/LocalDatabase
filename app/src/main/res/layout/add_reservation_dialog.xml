@@ -25,6 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
+    <CheckBox
+        android:id="@+id/reservationCompletedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation Completed" />
+
 
     <Button
         android:id="@+id/addReservationDialogButton"
